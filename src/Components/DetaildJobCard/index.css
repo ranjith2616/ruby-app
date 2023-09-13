@@ -1,0 +1,84 @@
+.job-card-container {
+  color: #fff;
+  background-color: #2b2b2b;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.company-logo-img {
+  height: 60px;
+}
+.icons {
+  color: #fbbf24;
+}
+.company-heading {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.company-card {
+  display: flex;
+}
+.rating {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.location-card {
+  display: flex;
+  align-items: center;
+  width: 22vh;
+  justify-content: space-between;
+}
+.location-salary-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.description-heading {
+  font-size: 26px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.skills-list-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.list-of-skills {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 50vh;
+}
+.skills-images {
+  height: 60px;
+}
+.skills-heading {
+  font-size: 18px;
+  padding-top: 30px;
+}
+.life-at-company-card {
+  display: flex;
+  align-items: center;
+}
+.link-visit {
+  color: #6366f1;
+}
+.visit-text {
+  color: #6366f1;
+}
+.visit-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .life-at-company-card {
+    flex-direction: column;
+    padding: 10px;
+  }
+}

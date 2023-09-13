@@ -1,0 +1,51 @@
+.filter-bg-container {
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 16px;
+  color: #fff;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+.list-container {
+  color: #fff;
+
+  margin-bottom: 20px;
+
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px;
+}
+.employment-salary-containers {
+  display: flex;
+}
+.search-input {
+  height: 30px;
+  width: 40vh;
+  background: transparent;
+
+  outline: none;
+  color: #fff;
+  font-family: 'Roboto';
+  padding: 8px;
+  border: 0;
+}
+.search-icon {
+  font-size: 20px;
+  color: #fff;
+}
+.search-card {
+  display: flex;
+  width: 46vh;
+  border: 2px solid #262724;
+}
+.search-btn {
+  background: #262724;
+  border: 0;
+  width: 50px;
+  cursor: pointer;
+  outline: none;
+}

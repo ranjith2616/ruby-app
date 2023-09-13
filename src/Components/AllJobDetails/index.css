@@ -1,0 +1,21 @@
+.job-item-list-container {
+  width: 160vh;
+  list-style-type: none;
+  padding-left: 0;
+
+  color: #ffffff;
+}
+.no-data-card {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item-list-container {
+    width: 100%;
+    margin-top: 30px;
+  }
+}

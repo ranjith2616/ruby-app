@@ -1,0 +1,46 @@
+.job-card-item {
+  background-color: #2b2b2b;
+  margin: 10px;
+  padding: 20px;
+  font-family: 'Roboto';
+  border-radius: 20px;
+}
+.company-logo-img {
+  height: 60px;
+}
+.star-icon {
+  color: #fbbf24;
+}
+.job-title {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+.company-card {
+  display: flex;
+  align-items: center;
+}
+.job-title-card {
+  margin-left: 10px;
+}
+.location-card {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.location-type {
+  padding: 8px;
+}
+.location-salary-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.description-text {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.link-item {
+  text-decoration: none;
+}
